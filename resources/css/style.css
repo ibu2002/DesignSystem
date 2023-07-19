@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Montserrat:ital@0;1&family=Nunito:ital@0;1&family=Open+Sans:ital@0;1&family=PT+Sans:ital@0;1&family=Playfair+Display:ital@0;1&family=Poppins:ital@0;1&family=Raleway:ital@0;1&family=Roboto:ital@0;1&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Fonts {
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 10px;
+  font-style: italic;
+}
+.colorDetail,
+.fontDetail,
+.snippetDetail {
+  height: 300px;
+  width: 100%;
+}
+.colorDetail {
+  margin-top: 20px;
+}
+.col-sm-4 {
+  border-radius: 5px;
+}
+
+.vid {
+  width: 95%;
+  height: 280px;
+}
+.rounded-video {
+  border-radius: 20px;
+  overflow: hidden;
+}
+h4 {
+  color: cornflowerblue;
+}
+p strong {
+  color: coral;
+}
+.banner {
+  margin-top: 60px;
+}
+#color1,
+#color5,
+#color9,
+#color13,
+#color17 {
+  margin-left: 22px;
+}
+#color1 {
+  background-color: #333333 !important;
+  color: #cccccc;
+}
+#color2 {
+  background-color: #ff3b3f !important;
+  color: #efefef;
+}
+#color3 {
+  background-color: #00b894 !important;
+  color: #fff;
+}
+#color4 {
+  background-color: #007bff !important;
+  color: #fff;
+}
+#color5 {
+  background-color: #f9dc5c !important;
+}
+#color6 {
+  background-color: #ff8c00 !important;
+}
+#color7 {
+  background-color: #8a2be2 !important;
+  color: #fff;
+}
+#color8 {
+  background-color: #ffc0cb !important;
+}
+#color9 {
+  background-color: #808080 !important;
+  color: white;
+}
+#color10 {
+  background-color: #c0c0c0 !important;
+}
+#color11 {
+  background-color: #404040 !important;
+  color: white;
+}
+#color12 {
+  background-color: #8b5a2b !important;
+  color: #fff;
+}
+#color13 {
+  background-color: #00ffff !important;
+}
+#color14 {
+  background-color: #efd9ca !important;
+}
+#color15 {
+  background-color: #4fe0b0 !important;
+}
+#color16 {
+  background-color: #2d5dcc !important;
+  color: #fff;
+}
+#color17 {
+  background-image: linear-gradient(to bottom, #fd5d64, #fe9f5d) !important;
+}
+#color18 {
+  background-image: linear-gradient(
+    to bottom,
+    #8a2387,
+    #e94057,
+    #f27121
+  ) !important;
+  color: white;
+}
+#color19 {
+  background-image: linear-gradient(to bottom, #b2dfdb, #6fd9cc) !important;
+}
+#color20 {
+  background-image: linear-gradient(to bottom, #00b4db, #0083b0) !important;
+}
+.pink {
+  color: palevioletred;
+}
+.green {
+  color: #4fe0b0;
+}
+#font1,
+#font4,
+#font7 {
+  margin-left: 50px;
+}
+#font1 {
+  font-family: "Roboto", sans-serif;
+}
+#font2 {
+  font-family: "Raleway", sans-serif;
+}
+#font3 {
+  font-family: "PT Sans", sans-serif;
+}
+#font4 {
+  font-family: "Poppins", sans-serif;
+}
+#font5 {
+  font-family: "Playfair Display", serif;
+}
+#font6 {
+  font-family: "Open Sans", sans-serif;
+}
+#font7 {
+  font-family: "Nunito", sans-serif;
+}
+#font8 {
+  font-family: "Montserrat", sans-serif;
+}
+#font9 {
+  font-family: "Lato", sans-serif;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.heading {
+  margin-top: 60px;
+}
+#heading {
+  margin-top: 60px;
+}
+.pad {
+  padding-left: 20px;
+}
+#heading2 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: cadetblue;
+}
+#snippet1,
+#snippet4,
+#snippet7 {
+  margin-left: 50px;
+}

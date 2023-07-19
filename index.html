@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Design System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+
+<body>
+    <header>
+        <!--* Navbar Starts -->
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+                <a class="navbar-brand active" aria-current="page" href="./index.html"><img
+                        src="./resources/images/home.svg" alt="Code" width="30" height="24"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./color.html">Colors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./font.html">Fonts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./snippet.html">Snippets</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- *navbar ends -->
+    </header>
+
+    <!-- *Main banner section start -->
+    <main class="banner">
+        <div class="container-fluid">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active color">
+                        <img src="./resources/images/slider1.jpg" class="d-block w-100 rounded"
+                            alt="collusion of colors" height="400px" width="100%">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="Fonts">
+                                <h5>Color</h5>
+                                <p>Color is the most important to style the webpage selecting colors plays a major role
+                                    in
+                                    the
+                                    style part .</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item font">
+                        <img src="./resources/images/font2.jpg" class="d-block w-100 rounded" alt="Bunch of letters"
+                            height="400px" width="100%">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="Fonts">
+                                <h5>Fonts</h5>
+                                <p>Typography is the most essential part of styling the webpage its make the webpage
+                                    more
+                                    Readable. Fonts plays amajor role in this typography</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item code">
+                        <img src="./resources/images/slider3.jpg" class="d-block w-100 rounded"
+                            alt="opening and closing tag" height="400px" width="100%">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="Fonts">
+                                <h5>Code Snippet</h5>
+                                <p>The block of code that mostly every Developer used.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </main>
+    <!--* main banner ends -->
+    <!-- * Color setion starts -->
+    <section class="colorDetail container-fluid">
+        <div class="row justify-content-center align-items-center g-2">
+            <div class="col-sm-4">
+                <video autoplay width="95%" height="280px" class="coverVideo vid" loop>
+                    <source src="./resources/images/colorVid2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+            </div>
+            <div class="col-sm-8">
+                <h4>Importance of Color Selection in CSS</h4>
+                <p><strong><em>Visual Appeal:</em></strong> Colors have a profound impact on how users perceive and
+                    interact with your website. By
+                    carefully selecting colors that harmonize and complement each other, you can create a visually
+                    pleasing and attractive design that captures the attention of your visitors.</p>
+                <p><strong><em>Branding and Identity:</em></strong> Colors are an essential element of branding.
+                    Consistently using the right
+                    colors throughout your website helps establish a strong visual identity and reinforces your brand
+                    message. It enables users to recognize and associate your website with your brand, fostering brand
+                    loyalty and recognition.</p>
+                <p><strong><em>User Experience:</em></strong> Colors can greatly influence the overall user experience.
+                    Proper color choices can
+                    enhance readability, guide user attention, and create a clear visual hierarchy on your website.</p>
+            </div>
+        </div>
+    </section>
+    <!-- * Color Section Ends -->
+
+    <hr>
+
+    <!-- * Font Section starts -->
+    <section class="fontDetail container-fluid">
+        <div class="row justify-content-center align-items-center g-2">
+            <div class="col-sm-4">
+                <video autoplay width="95%" height="280px" class="coverVideo vid" loop>
+                    <source src="./resources/images/fontVid3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="col-sm-8">
+                <h4>Importance of Fonts in Web Design:</h4>
+                <p><strong><em>Visual Identity:</em></strong> Fonts play a crucial role in establishing your website's
+                    visual identity. Choosing
+                    the right fonts that align with your brand's personality and message helps create a consistent and
+                    memorable user experience. Whether it's a sleek and modern look or a classic and elegant style,
+                    fonts contribute significantly to brand recognition.</p>
+                <p><strong><em>Readability and Accessibility:</em></strong> The primary purpose of text on a website is
+                    to convey information.
+                    Fonts should be selected and styled to ensure optimal readability, allowing visitors to consume your
+                    content effortlessly.</p>
+                <p><strong><em>Information Hierarchy:</em></strong> Typography helps establish a visual hierarchy,
+                    guiding users through the
+                    content and highlighting key elements. By using different font weights, sizes, and styles, you can
+                    create emphasis and structure within your text. Headers, subheadings, and body text should be
+                    clearly differentiated to aid comprehension and improve user experience.</p>
+            </div>
+        </div>
+    </section>
+    <!-- * Font Section Ends -->
+
+    <hr>
+
+    <!-- * Snippet Section Start -->
+
+    <section class="snippetDetail container-fluid">
+        <div class="row justify-content-center align-items-center g-2">
+            <div class="col-sm-4 rounded-video">
+                <video autoplay class="coverVideo vid" loop>
+                    <source src="./resources/images/snippetVid3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="col-sm-8">
+                <h4>HTML & CSS Snippet:</h4>
+                <p>Web developers often seek efficient and reusable code snippets to streamline their workflow and
+                    enhance productivity. In this article, we will explore a collection of HTML and CSS snippets that
+                    can be readily implemented in your web development projects. These snippets cover a range of
+                    commonly used elements and styling techniques, providing you with a handy resource to save time and
+                    effort.</p>
+                <p> </p>
+                <p>Snippets are invaluable resources for web developers as they provide ready-to-use code snippets that
+                    can be easily integrated into projects. Whether you need to create grid layouts, embed videos, add
+                    animations, build image galleries, or apply responsive styles, these snippets offer a starting point
+                    for implementation. By leveraging snippets, you can save time, maintain code consistency, and
+                    enhance the functionality and visual appeal of your website. Feel free to customize and extend these
+                    snippets to suit your specific needs and unleash your creativity in web development.</p>
+            </div>
+        </div>
+    </section>
+    <!-- * Snippet Section Ends -->
+
+    <!-- javascript Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!-- footer -->
+    <footer class="bg-primary text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3 footer text-light" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-light" href="#">Mohamed Ibrahim</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+</body>
+
+</html>

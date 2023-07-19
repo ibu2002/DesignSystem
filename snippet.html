@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Snippet</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/snippet.css">
+
+    <style>
+        .col-4 {
+            width: 31% !important;
+            border-radius: 5px !important;
+            margin-left: 10px;
+            padding-top: 15px;
+            border: 1px solid black;
+            color: #f78c6c;
+            background-color: #0f111a;
+        }
+
+        section {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .tittle {
+            padding-bottom: 10px;
+            color: hotpink;
+        }
+
+        p {
+            text-align: left !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <!--* Navbar Starts -->
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./resources/images/home.svg" alt="Code" width="30"
+                        height="24"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./color.html">Colors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./font.html">Fonts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./snippet.html">Snippets</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- *navbar ends -->
+    </header>
+    <main>
+        <div class="container text-center" id="heading1">
+            <span class="h1 text-primary">S</span>
+            <span class="h1 text-info">N</span>
+            <span class="h1 text-secondary">I</span>
+            <span class="h1 text-success">P</span>
+            <span class="h1 text-danger">P</span>
+            <span class="h1 text-warning">E</span>
+            <span class="h1 green">T</span>
+            <span class="h1 pink">S</span>
+
+            <h2 class="h2 text-center" id="heading2">The Most Commonly Used CSS Snippets</h2>
+
+            <section>
+                <div class="container-fluid text-center" style="height: 300px;">
+                    <div class=" row h-100" id="section1" style="width: 100%;">
+                        <div class="col-4  h-100" class="section1" id="snippet1">
+                            <h3 class="tittle">Creating a Responsive Image</h3>
+                            <p>img {</p>
+                            <p class="pad">max-width: 100%;</p>
+                            <p class="pad"> height: auto;</p>
+                            <p>}</p>
+                        </div>
+                        <div class="col-4 h-100" class="section1" id="snippet2">
+                            <h3 class="tittle">Creating a Grid Layout</h3>
+                            <p>.container {</p>
+                            <p class="pad"> display: grid;</p>
+                            <p class="pad">grid-template-columns: repeat(3, 1fr);</p>
+                            <p class="pad">gap: 20px;</p>
+                            <p>}</p>
+
+                        </div>
+                        <div class="col-4 h-100" class="section1" id="snippet3">
+                            <h3 class="tittle">Creating a Card Layout</h3>
+                            <p>.card {</p>
+                            <p class="pad">border: 1px solid #ccc;</p>
+                            <p class="pad">border-radius: 4px;</p>
+                            <p class="pad">padding: 20px; </p>
+                            <p class="pad">box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);</p>
+                            <p>}</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container-fluid text-center" style="height: 300px;">
+                    <div class=" row h-100" id="section2" style="width: 100%;">
+                        <div class="col-4  h-100" class="section2" id="snippet4">
+                            <h3 class="tittle">Centering an Element Horizontally</h3>
+                            <p>.element {</p>
+                            <p class="pad">margin-left: auto;</p>
+                            <p class="pad">margin-right: auto;</p>
+                            <p> }</p>
+
+
+
+                        </div>
+                        <div class="col-4 h-100" class="section2" id="snippet5">
+                            <h3 class="tittle">Centering an Element Vertically</h3>
+                            <p>.element {</p>
+                            <p class="pad">display: flex;</p>
+                            <p class="pad"> align-items: center;</p>
+                            <p class="pad"> justify-content: center;</p>
+                            <p> } </p>
+
+                        </div>
+                        <div class="col-4 h-100" class="section2" id="snippet6">
+                            <h3 class="tittle">Positioning an Element</h3>
+                            <p>.element {</p>
+                            <p class="pad">position: absolute;</p>
+                            <p class="pad">top: 0;</p>
+                            <p class="pad">left: 0;</p>
+                            <p>}</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container-fluid text-center" style="height: 300px;">
+                    <div class=" row h-100" id="section3" style="width: 100%;">
+                        <div class="col-4  h-100" class="section3" id="snippet7">
+                            <h3 class="tittle">Creating a Sticky Navbar</h3>
+                            <p>.navbar {</p>
+                            <p class="pad">position: sticky;</p>
+                            <p class="pad">top: 0;</p>
+                            <p class="pad">background-color: #fff;</p>
+                            <p class="pad">z-index: 999;</p>
+                            <p>}</p>
+
+
+                        </div>
+                        <div class="col-4 h-100" class="section3" id="snippet8">
+                            <h3 class="tittle">Styling a Heading</h3>
+                            <p>h1 {</p>
+                            <p class="pad">font-size: 24px;</p>
+                            <p class="pad">font-weight: bold;</p>
+                            <p class="pad">margin-bottom: 10px;</p>
+                            <p>}</p>
+
+                        </div>
+                        <div class="col-4 h-100" class="section3" id="snippet9">
+                            <h3 class="tittle">Making an Image a Circle</h3>
+                            <p>.circle-image {</p>
+                            <p class="pad">width: 100px;</p>
+                            <p class="pad">height: 100px;</p>
+                            <p class="pad">border-radius: 50%;</p>
+                            <p>}</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+    </main>
+    <!-- footer -->
+    <footer class="bg-primary text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3 footer text-light" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-light" href="#">Mohamed Ibrahim</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
